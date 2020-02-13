@@ -17,6 +17,9 @@ describe('/api', () => {
           expect(res.body).to.be.null
         })
       })
+      ('breaking test', () => {
+        expect(1).to.equal(2)
+      })
     })
   })
 
